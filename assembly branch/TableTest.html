@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sample editor v1.0</title>
+<style type="text/css">
+table td {
+	border:none;
+}
+</style>
+</head>
+<body>
+	<script src="js/inputs.js"></script>
+	<h3>ScratchPad</h3>
+	<div id="table"
+		style="overflow-y: scroll; border: 1px solid black; height: 200px; width: 350px">
+		<table id="commands">
+		</table>
+	</div>
+	<input type="button" value=".Word" onClick="insertWord()">
+	<input type="button" value=".Block" onClick="insertBlock()">
+	<input type="button" value="Halt" onClick="insertHalt()"><br>
+	<input type="button" value="Load" onClick="insertLoad()">
+	<input type="button" value="LoadImm" onClick="insertLoadImm()">
+	<input type="button" value="LoadInd" onClick="insertLoadInd()"><br>
+	<input type="button" value="Store" onClick="insertStore()">
+	<input type="button" value="StoreInd" onClick="insertStoreInd()">
+	<input type="button" value="And" onClick="insertAnd()"><br>
+	<input type="button" value="Add" onClick="insertAdd()">
+	<input type="button" value="Sub" onClick="insertSub()">
+	<input type="button" value="Or" onClick="insertOr()"><br>
+	<input type="button" value="ASL" onClick="insertASL()">
+	<input type="button" value="ASR" onClick="insertASR()">
+	<input type="button" value="Not" onClick="insertNot()"><br>
+	<input type="button" value="Compare" onClick="insertCompare()">
+	<input type="button" value="Branch" onClick="insertBranch()">
+	<input type="button" value="Jump" onClick="insertJump()">
+</body>
+</html>
