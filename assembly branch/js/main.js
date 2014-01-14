@@ -5,8 +5,7 @@ require.config({
     bootstrap:    '../lib/js/bootstrap',
     jquery:       '../lib/js/jquery',
     less:         '../lib/js/less',
-    uiBootstrap:  '../lib/js/ui-bootstrap',
-    tabs:		  '../lib/js/tabs'
+    uiBootstrap:  '../lib/js/ui-bootstrap'
   },
   shim: {
     'angular': {'exports': 'angular'}
@@ -14,7 +13,7 @@ require.config({
 });
 
 require(['angular', 'assemblyui'], function(angular, app) {
-  angular.bootstrap(document, ['assemnlyui']);
+  angular.bootstrap(document, ['assemblyui']);
   console.log('require block, standing by');
 });
 

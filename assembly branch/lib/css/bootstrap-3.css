@@ -31,16 +31,16 @@ video {
   display: inline-block;
 }
 
-.span3 {
+.spanMem {
 	height:300px !important;
 	width:350px !important;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 
-.span2 {
+.spanReg {
 	height:300px !important;
 	width:225px !important;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 
 audio:not([controls]) {
